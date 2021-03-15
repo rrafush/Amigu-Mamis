@@ -77,10 +77,10 @@ body {
   border-radius: 50%;
 }
 
-.logo:hover > .branco1 {
+.logo:hover > .branco1, .logo:active > .branco1 {
   transform: rotate(360deg);
 }
 
-.logo:hover > .branco2 {
+.logo:hover > .branco2, .logo:active > .branco2 {
   transform: rotate(360deg);
 }
