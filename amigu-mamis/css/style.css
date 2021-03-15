@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #f7e0cd;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  background-image: url("../img/logo.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 25vw;
+  height: 25vw;
+  min-width: 300px;
+  min-height: 300px;
+}
+
+.branco1 {
+  position: relative;
+  top: 35.7%;
+  left: 40.8%;
+  width: 3.8vw;
+  height: 3.8vw;
+  min-width: 46px;
+  min-height: 46px;
+  border-radius: 50%;
+  transition: ease-in-out 1s;
+}
+
+.branco2 {
+  position: relative;
+  top: 29.4%;
+  left: 56.1%;
+  width: 3.8vw;
+  height: 3.8vw;
+  min-width: 46px;
+  min-height: 46px;
+  border-radius: 50%;
+  transition: ease-in-out 1.2s;
+}
+
+.olho1 {
+  position: relative;
+  top: 49%;
+  left: 46%;
+  width: 1.5vw;
+  height: 1.5vw;
+  min-width: 17px;
+  min-height: 17px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.olho2 {
+  position: relative;
+  top: 30%;
+  left: 5%;
+  width: 1.5vw;
+  height: 1.5vw;
+  min-width: 17px;
+  min-height: 17px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.logo:hover > .branco1 {
+  transform: rotate(360deg);
+}
+
+.logo:hover > .branco2 {
+  transform: rotate(360deg);
+}
