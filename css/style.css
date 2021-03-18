@@ -15,6 +15,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+#btn {
+  margin-top: 20px;
+  padding: 20px 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: white;
+  border-style: none;
+  border-radius: 30px;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.164);
+  color: #d6304c;
 }
 
 .logo {
@@ -77,10 +91,16 @@ body {
   border-radius: 50%;
 }
 
-.logo:hover > .branco1, .logo:active > .branco1 {
-  transform: rotate(360deg);
+.animate1 {
+  animation: rodar 1s;
 }
 
-.logo:hover > .branco2, .logo:active > .branco2 {
-  transform: rotate(360deg);
+.animate2 {
+  animation: rodar 1.2s;
+}
+
+@keyframes rodar {
+  100% {
+    transform: rotate(360deg);
+  }
 }

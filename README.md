@@ -12,7 +12,7 @@ Para os elementos internos, utilizei position: relative para que eles seguissem 
 
 Depois de posicionar os elementos devidamente e checar a responsividade, substituí a imagem central pela logo sem os olhos.
 
-A partir daí, utilizei o elemento central como gatilho para que a animação nos elementos internos ocorressem!
+A partir daí, utilizei poucas linhas de JavaScript pra linkar a ação de clicar no botão com a animação em css nos olhos!
 
 Espero que tenham gostado da minha ideia! E sintam-se à vontade para colaborar, dar sugestões e dicas! Estou sempre aberta para melhorias no meu código e para aprender coisas novas!
 
